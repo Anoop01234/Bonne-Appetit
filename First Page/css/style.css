@@ -240,11 +240,6 @@ a:focus,
     margin-top: 0;
 }
 
-.intro span {
-    color: #a7c44c;
-    font-weight: 600;
-}
-
 .intro p {
     color: #fff;
     font-size: 24px;
@@ -321,7 +316,7 @@ header .intro-text {
 }
 
 
-/*blogs*/
+/*blogs&posts*/
 
 #post {
     padding: 120px 0;
@@ -387,11 +382,6 @@ header .intro-text {
 
 #home {
     padding: 100px 0 60px 0;
-}
-
-#home img {
-    width: 300px;
-    box-shadow: 15px 0 #a7c44c;
 }
 
 #home h3 {
