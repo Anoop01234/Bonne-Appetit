@@ -1,0 +1,86 @@
+/* Header Section */
+
+.intro {
+    display: table;
+    width: 100%;
+    padding: 0;
+    background: url(../img/recipes/veg2.jpg) fixed center no-repeat;
+    background-color: #e5e5e5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    opacity: 0.8;
+}
+
+.intro:hover {
+    opacity: 1;
+}
+
+.intro .overlay {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.intro h1 {
+    font-family: 'Rochester', cursive;
+    color: #fff;
+    font-size: 8em;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.intro span {
+    color: #a7c44c;
+    font-weight: 600;
+}
+
+.intro p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 150px;
+}
+
+header .intro-text {
+    padding-top: 200px;
+    padding-bottom: 50px;
+    text-align: center;
+    position: relative;
+    animation: animatetop 0.5s;
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.RecipeServesTime p {
+    margin: 0px 0px 3px 0px;
+}
+
+
+/*footer {
+    bottom: 0;
+    z-index: -1;
+    height: 80px;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    text-shadow: 1px 1px black;
+    padding: 4px 0px;
+    text-align: center;
+}*/
+
+
+/* Footer Section*/
+
+#footer {
+    background: #262626;
+    padding: 40px 0 20px 0;
+}
