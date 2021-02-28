@@ -7,6 +7,8 @@ html {
     font-weight: 400;
     width: 100% !important;
     height: 100% !important;
+    background-image: url(../img/wood1.jpg);
+    background-attachment: fixed;
 }
 
 h1,
@@ -14,12 +16,13 @@ h2,
 h3,
 h4 {
     font-family: 'Raleway', sans-serif;
+    color: rgb(241, 206, 173);
 }
 
 h2 {
     font-weight: 400;
     font-size: 38px;
-    color: #333;
+    color: rgb(241, 206, 173);
     text-transform: uppercase;
     position: relative;
     margin-top: 10px;
@@ -99,6 +102,21 @@ a:focus,
 .btn.active.focus {
     outline: none;
     outline-offset: none;
+}
+
+.mysh {
+    color: white;
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(8, 8, 99);
+}
+
+.zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    text-decoration: none;
 }
 
 
@@ -248,8 +266,8 @@ a:focus,
 }
 
 header .intro-text {
-    padding-top: 200px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -257,7 +275,7 @@ header .intro-text {
 /* Shop Section */
 
 #shop {
-    padding: 120px 0;
+    padding: 40px 0;
 }
 
 #shop .shop-item {
@@ -288,7 +306,7 @@ header .intro-text {
 /*Recipes*/
 
 #recipes {
-    padding: 120px 0;
+    padding: 40px 0;
 }
 
 #recipes .recipes-item {
@@ -319,7 +337,7 @@ header .intro-text {
 /*blogs&posts*/
 
 #post {
-    padding: 120px 0;
+    padding: 40px 0;
 }
 
 #post .post-item {
@@ -334,10 +352,10 @@ header .intro-text {
     display: block;
     content: '';
     position: absolute;
-    top: 8px;
-    right: 8px;
-    bottom: 8px;
-    left: 8px;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
     border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -394,14 +412,14 @@ header .intro-text {
 }
 
 #home .menu-section {
-    margin: 0 20px 80px;
+    margin: 0 20px 20px;
 }
 
 #home .menu-section-title {
     font-size: 32px;
     display: block;
     font-weight: 400;
-    color: #444;
+    color: rgb(241, 206, 173);
     margin: 20px 0;
     text-align: center;
 }
