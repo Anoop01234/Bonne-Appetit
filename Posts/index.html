@@ -22,15 +22,19 @@
 </head>
 
 <body>
-    <nav id="menu" class="navbar navbar-default navbar-fixed-top" style="background-color: black;">
+    <!-- Navigation-->
+    <nav id="menu" class="navbar navbar-default navbar-fixed-top" style="background-color: black; opacity: 0.7;">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#home" class="page-scroll">Home</a></li>
-                    <li><a href="#home" class="page-scroll">Post</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#recipes">Recipes</a></li>
+                    <li><a href="../First Page/index.html">Home</a></li>
+                    <li><a href="#post">Blogs</a></li>
+                    <li><a href="#contact">Posts</a></li>
                 </ul>
             </div>
         </div>
@@ -44,7 +48,7 @@
                 </div>
 
             </div>
-            <h1 id="myintro">Post Page</h1>
+            <h1 id="myintro" style="color: red;">Post Page</h1>
             <span class="a"> </span>
         </div>
     </div>
@@ -56,7 +60,7 @@
         <div class="container">
             <div class="row work-row">
                 <div class="col-md-4 work-column">
-                    <img src="images/1.jpg" alt="" class="img-cap zoom" style="height: 360px; width:360px; ">
+                    <img src="images/1.jpg" alt="" class="img-cap " style="height: 360px; width:360px; ">
                     <div class="caption">
                         <div class="text">
                             <h3>Author: Ankur Kashyap</h3>
@@ -110,8 +114,8 @@
                     <img src="images/6.jpg" alt="" class="img-width" style="height: 735px; width:360px;">
                     <div class="caption car ">
                         <div class="text big ">
-                            <h3>6</h3>
-                            <p>Class aptent taciti sociosqu ad litora torquentper conubia<br>nostra, per inceptos himenaeo</p>
+                            <h3>Author: Aman Dattarwal</h3>
+                            <p>My own private Idaho</p>
                         </div>
                     </div>
                 </div>
@@ -122,8 +126,8 @@
                             <img src="images/7.jpg" alt="" class="img-width" style="height: 360px; width:360px;">
                             <div class="caption ">
                                 <div class="text ">
-                                    <h3>7</h3>
-                                    <p>Class aptent taciti sociosqu ad litora torquentper conubia<br>nostra, per inceptos himenaeo</p>
+                                    <h3>Author: Anna Jaiswal</h3>
+                                    <p>To be presumptious is more than just being delightful</p>
                                 </div>
                             </div>
                         </div>
@@ -131,8 +135,8 @@
                             <img src="images/8.jpg" alt="" class="img-width" style="height: 360px; width:360px;">
                             <div class="caption ">
                                 <div class="text ">
-                                    <h3>8</h3>
-                                    <p>Class aptent taciti sociosqu ad litora torquentper conubia<br>nostra, per inceptos himenaeo</p>
+                                    <h3>Author: Ashraf Sheikh</h3>
+                                    <p>Strawberries is more than just LOVE</p>
                                 </div>
                             </div>
                         </div>
@@ -142,8 +146,8 @@
                             <img src="images/9.jpg" alt="" class="img-width" style="height: 350px; width:750px;">
                             <div class="caption cat ">
                                 <div class="text sma ">
-                                    <h3>9</h3>
-                                    <p>Class aptent taciti sociosqu ad litora torquentper conubia<br>nostra, per inceptos himenaeo</p>
+                                    <h3>Author: Kalprit Agarwal</h3>
+                                    <p>Pizza is my motivation for being a JEE topper ROFL 😂</p>
                                 </div>
                             </div>
                         </div>
@@ -153,42 +157,42 @@
             </div>
         </div>
     </div>
-    <!--contact start here-->
-    <!-- Contact Section -->
-    <div id="contact " class="text-center ">
-        <div class="container ">
-            <div class="section-title text-center ">
+    <div id="contact" class="text-center">
+        <div class="container">
+            <div class="section-title text-center">
                 <h3>Send us a message</h3>
             </div>
-            <div class="col-md-8 col-md-offset-2 ">
-                <form name="sentMessage " id="contactForm " novalidate>
-                    <div class="row ">
-                        <div class="col-md-6 ">
-                            <div class="form-group ">
-                                <input type="text " id="name " class="form-control " placeholder="Name " required="required ">
-                                <p class="help-block text-danger "></p>
+            <div class="col-md-8 col-md-offset-2">
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                                <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <div class="col-md-6 ">
-                            <div class="form-group ">
-                                <input type="email " id="email " class="form-control " placeholder="Email " required="required ">
-                                <p class="help-block text-danger "></p>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                                <p class="help-block text-danger"></p>
                             </div>
                         </div>
                     </div>
-                    <div class="form-group ">
-                        <textarea name="message " id="message " class="form-control " rows="4 " placeholder="Message " required></textarea>
-                        <p class="help-block text-danger "></p>
+                    <div class="form-group">
+                        <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+                        <p class="help-block text-danger"></p>
                     </div>
-                    <div id="success "></div>
-                    <button type="submit " class="btn btn-custom btn-lg ">Send Message</button>
+                    <div id="success"></div>
+                    <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
                 </form>
             </div>
         </div>
-    </div><br><br>
-    <div id="footer ">
-        <div class="container text-center ">
-            <p>Designed with patience. 🙂 All rights reserved.</p>
+    </div>
+    <div id="footer">
+        <div class="container text-center">
+            <div class="col-md-6">
+                <p>Designed with patience 🙂 All rights reserved</p>
+            </div>
         </div>
     </div>
 

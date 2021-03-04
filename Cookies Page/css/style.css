@@ -350,13 +350,13 @@ header .intro-text {
     margin-top: -36px;
 }
 
+
+/* Images content */
+
 .mysh {
     color: white;
     box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(8, 8, 99);
 }
-
-
-/* Images content */
 
 .mySlides {
     display: none

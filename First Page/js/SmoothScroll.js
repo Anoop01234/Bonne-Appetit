@@ -8,8 +8,6 @@
         animationTime: 400, // [px]
         stepSize: 120, // [px]
 
-        // Pulse (less tweakable)
-        // ratio of "tail" to "acceleration"
         pulseAlgorithm: true,
         pulseScale: 8,
         pulseNormalize: 1,
@@ -53,21 +51,10 @@
         home: 36
     };
 
-
-    /***********************************************
-     * SETTINGS
-     ***********************************************/
-
     var options = defaultOptions;
 
 
-    /***********************************************
-     * INITIALIZE
-     ***********************************************/
 
-    /**
-     * Tests if smooth scrolling is allowed. Shuts down everything if not.
-     */
     function initTest() {
 
         var disableKeyboard = false;
@@ -82,9 +69,6 @@
         }
     }
 
-    /**
-     * Sets up scrolls array, determines if frames are involved.
-     */
     function init() {
 
         if (!document.body) return;
@@ -101,17 +85,9 @@
         initTest();
         initDone = true;
 
-        // Checks if this script is running in a frame
         if (top != self) {
             isFrame = true;
-        }
-
-        /**
-         * This fixes a bug where the areas left and right to 
-         * the content does not trigger the onmousewheel event
-         * on some pages. e.g.: html, body { height: 100% }
-         */
-        else if (scrollHeight > windowHeight &&
+        } else if (scrollHeight > windowHeight &&
             (body.offsetHeight <= windowHeight ||
                 html.offsetHeight <= windowHeight)) {
 
