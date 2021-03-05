@@ -309,6 +309,10 @@ header .intro-text {
     text-transform: uppercase;
 }
 
+strike {
+    color: yellow;
+}
+
 #home .menu-section hr {
     margin: 0 auto;
 }
@@ -318,9 +322,12 @@ header .intro-text {
 }
 
 #home .menu-section-title {
-    font-size: 32px;
+    font-size: 50px;
     display: block;
     font-weight: 400;
+    text-transform: none;
+    font-style: italic;
+    font-family: Rochester, cursive;
     color: rgb(255, 198, 198);
     margin: 20px 0;
     text-align: center;

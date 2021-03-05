@@ -318,14 +318,21 @@ header .intro-text {
     margin: 0 auto;
 }
 
+strike {
+    color: yellow;
+}
+
 #home .menu-section {
     margin: 0 20px 80px;
 }
 
 #home .menu-section-title {
-    font-size: 32px;
+    font-size: 50px;
     display: block;
     font-weight: 400;
+    text-transform: none;
+    font-family: Rochester, cursive;
+    font-style: italic;
     color: rgb(255, 198, 198);
     margin: 20px 0;
     text-align: center;
