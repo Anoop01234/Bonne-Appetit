@@ -1,0 +1,227 @@
+/*-----------blog2-------------*/
+
+body {
+    background-image: url(../img/post/wood1.jpg);
+    background-attachment: fixed;
+}
+
+header .intro-text {
+    padding-top: 150px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.intro-text h1 {
+    color: #fff;
+    font-family: "Brush Script MT", cursive;
+    font-size: 4em;
+    font-weight: 400;
+    border: 4px solid white;
+    height: 70px;
+    width: 580px;
+    margin-left: 29%;
+    margin-right: 20%;
+}
+
+.card {
+    display: flex;
+    text-align: center;
+    height: 1600px;
+    flex-direction: column;
+    margin-bottom: 4%;
+    margin-left: 13%;
+    margin-right: 14%;
+    background: white;
+    line-height: 1.4;
+    font-family: sans-serif;
+    overflow: hidden;
+    z-index: 0;
+    border: 1.3px solid gray;
+    box-shadow: 0px 10px 16px 0px saddlebrown;
+}
+
+.card .row a {
+    color: white;
+}
+
+.card .row .btn:hover {
+    color: #8ab436;
+    background-color: rgb(4, 139, 4);
+    box-shadow: 3px 3px 3px 3px darkgray;
+}
+
+.card .row button:first-of-type {
+    float: left;
+    margin-left: 4%;
+    background-color: #8ab436;
+}
+
+.card .row button:nth-of-type(2) {
+    float: right;
+    margin-right: 4%;
+    background-color: #8ab436;
+}
+
+.card .card-block {
+    display: flex;
+    flex-direction: column;
+    height: 340px;
+    margin-left: 70%;
+    margin-right: 8%;
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0);
+    margin-bottom: 1.6%;
+    margin-top: -135%;
+    background: rgb(247, 241, 241);
+    line-height: 1.2;
+    font-family: sans-serif;
+    border-radius: 3px;
+    border: 2px solid rgb(29, 26, 26);
+    overflow: hidden;
+    z-index: 0;
+}
+
+.card .card-block1 {
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    margin-left: 70%;
+    margin-right: 8%;
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0);
+    margin-bottom: 1.6%;
+    margin-top: 2%;
+    background: rgb(247, 241, 241);
+    line-height: 1.2;
+    font-family: sans-serif;
+    border: 2px solid rgb(29, 26, 26);
+    overflow: hidden;
+    z-index: 0;
+}
+
+.card .card-block2 {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    margin-left: 70%;
+    margin-right: 8%;
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0);
+    margin-bottom: 1.6%;
+    margin-top: 2%;
+    background: rgb(247, 241, 241);
+    line-height: 1.2;
+    font-family: sans-serif;
+    border: 2px solid rgb(29, 26, 26);
+    overflow: hidden;
+    z-index: 0;
+}
+
+.card .card-block img {
+    height: 210px;
+    width: 210px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2.1%;
+    border-radius: 50%;
+}
+
+.card .card-block p {
+    width: 225px;
+    margin-top: 3px;
+    margin-left: 12px;
+    text-align: center;
+    color: rgb(73, 73, 73);
+}
+
+.card .card-block1 p {
+    width: 225px;
+    margin-top: 3px;
+    margin-left: 12px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card .card-block2 p {
+    width: 225px;
+    margin-top: 10px;
+    margin-left: 12px;
+    text-align: center;
+    color: rgb(75, 73, 73);
+    text-decoration: underline;
+}
+
+.card .card-block2 .card-body a {
+    width: 225px;
+    margin-top: 10px;
+    margin-left: 12px;
+    text-align: center;
+    color: rgb(75, 73, 73);
+    text-decoration: underline;
+}
+
+.card .card-block h5:before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #99c93a;
+    width: 80px;
+    top: 485px;
+    margin-left: 40px;
+    border-radius: 4px;
+}
+
+.card .card-block h5 {
+    color: rgb(22, 22, 22);
+    text-transform: uppercase;
+    margin-top: 2px;
+    margin-left: 20px;
+    margin-right: 27px;
+}
+
+.card .card-block1 h5 {
+    color: rgb(22, 22, 22);
+    text-transform: uppercase;
+    margin-top: 2px;
+    margin-left: 20px;
+    margin-right: 27px;
+}
+
+.card .card-block2 h5 {
+    color: rgb(22, 22, 22);
+    text-transform: uppercase;
+    margin-top: 2px;
+    margin-left: 20px;
+    margin-right: 27px;
+}
+
+.card img {
+    height: 650px;
+    width: 605px;
+    margin: 25px;
+    border: none !important;
+}
+
+.card img:hover {
+    opacity: 1;
+}
+
+.card h1 {
+    font-family: fantasy;
+    color: black;
+    margin-right: 620px;
+}
+
+.card h5 {
+    color: gray;
+    text-transform: none;
+    margin-top: 5px;
+    margin-right: 670px;
+}
+
+.card .c,
+p,
+.c1 {
+    width: 600px;
+    color: black;
+    margin-top: 14px;
+    margin-left: 25px;
+    text-align: left;
+}
