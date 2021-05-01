@@ -17,7 +17,7 @@ Hey Guys, thanks for landing on our repository, this is our <b>Multi Device Prog
 ### Anoop Gupta - [Connect on Github](https://github.com/Anoop01234)
 ### Muskan Goel - [Connect on Github](https://github.com/muskan-goel)
 
-Copyright (c) [2021]
+## Copyright (c) [2021]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
