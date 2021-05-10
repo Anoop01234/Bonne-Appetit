@@ -6,6 +6,8 @@ Hey Guys, thanks for landing on our repository, this is our <b>Multi Device Prog
 #### Here goes our Home page
 
 #### Our shop page (just for cookies), though we have implemented for cookies, pastries and donuts.
+![image](https://user-images.githubusercontent.com/42812907/117679539-fe6e8500-b1cd-11eb-9614-6ba7835c8617.png)
+
 
 #### Our recipes page where you can find exquisite recipes for traditional and non-traditional occasions. This includes veg, non-veg and dessert recipes.
 
