@@ -7,19 +7,19 @@ Hey Guys, thanks for landing on our repository, this is our <b>Multi Device Prog
 ![image](https://user-images.githubusercontent.com/42812907/117682263-7fc71700-b1d0-11eb-821d-30f37460a45f.png)
 
 
-#### Our shop page (just for cookies), though we have implemented for cookies, pastries and donuts.
+#### Our shop page (just for cookies), though we have implemented if for cookies, pastries and donuts as well
 ![image](https://user-images.githubusercontent.com/42812907/117682430-abe29800-b1d0-11eb-9dcf-bf8d302465e7.png)
 
-#### If you click on cookies, we'll land up on this page:
+#### If you click on cookies, we'll land up on this page
 ![image](https://user-images.githubusercontent.com/42812907/117682505-c3ba1c00-b1d0-11eb-9718-37d7eacb567d.png)
 
-#### Our recipes page where you can find exquisite recipes for traditional and non-traditional occasions. This includes veg, non-veg and dessert recipes.
+#### Our recipes page where you can find exquisite recipes for traditional and non-traditional occasions. This includes veg, non-veg and dessert recipes
 ![image](https://user-images.githubusercontent.com/42812907/117682655-eb10e900-b1d0-11eb-9b38-14d64475bca4.png)
 
-#### For Veg Recipes, 
+#### For Veg Recipes (same goes for non-veg and dessert recipes)
 ![image](https://user-images.githubusercontent.com/42812907/117682795-11368900-b1d1-11eb-83c8-973bdf9277e1.png)
 
-#### If you click on any one of the veg recipes:
+#### If you click on any one of the veg recipes
 ![image](https://user-images.githubusercontent.com/42812907/117682942-35926580-b1d1-11eb-8768-c2ad05ba7c6b.png)
 
 #### Blogs And Posts
@@ -28,7 +28,7 @@ Hey Guys, thanks for landing on our repository, this is our <b>Multi Device Prog
 #### Our Post page where you may find the pictures posted by other users (which again is static though)
 ![image](https://user-images.githubusercontent.com/42812907/117683960-2eb82280-b1d2-11eb-8c0d-55955b84c1d9.png)
 
-#### Here comes our blogs page where you may find, the blogs posted by the users.
+#### Here comes our blogs page where you may find, the blogs posted by the by different users
 ![image](https://user-images.githubusercontent.com/42812907/117684090-498a9700-b1d2-11eb-96d9-deaf8bb77334.png)
 
 #### On clicking any individual blog:
