@@ -1,4 +1,4 @@
-# Bonne Appetit(Food And Photography)
+# Bonne Appetit (Food And Photography)
 ## About
 Hey Guys, thanks for landing on our repository, this is our <b>Multi Device Programming</b> project where we have tried to incorporate food with photography. So, this is a static website though the design implementation for the project took a lot of time. This project was intially started with the purpose for blending the passion for food with the love towards photography. But with the advancement we tried to incorporate few more features to our website. So, here goes our website.
 
